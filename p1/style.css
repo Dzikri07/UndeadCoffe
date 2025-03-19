@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.carousel-control-prev {
+    display: none; /* Tombol tidak akan ditampilkan */
+}
+
+.carousel-control-next{
+    display: none; /* Tombol tidak akan ditampilkan */
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.coffee-menu, .history, .pastry-dessert {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e8d0c7;
+}
+
+.coffee-items, .dessert-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.coffee-item, .dessert-item {
+    margin: 20px;
+    text-align: center;
+}
+
+.coffee-item img, .dessert-item img {
+    width: 150px;
+    height: auto;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #1f1f1f;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

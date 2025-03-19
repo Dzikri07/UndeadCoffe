@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Navbar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .top-menu {
+            display: flex;
+            justify-content: flex-end;
+            gap: 20px;
+            padding: 10px 20px;
+            background-color: #f8f8f8;
+            font-size: 14px;
+        }
+        .top-menu a {
+            text-decoration: none;
+            color: black;
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .top-nav .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .top-nav .search-bar {
+            width: 150px;
+            margin: 0 20px;
+        }
+        .top-nav input {
+            width: 100%;
+            padding: 5px;
+            border-radius: 15px;
+            border: 1px solid #ccc;
+        }
+        .top-nav .icons {
+            display: flex;
+            gap: 15px;
+        }
+        .bottom-nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+        }
+        .bottom-nav a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .bottom-nav a:hover {
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-menu">
+        <a href="#">Find a Store</a>
+        <a href="#">Help</a>
+        <a href="#">Join Us</a>
+        <a href="#">Sign In</a>
+    </div>
+    <div class="top-nav">
+        <div class="logo">Nike</div>
+        <div class="bottom-nav">
+            <a href="#">New & Featured</a>
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Kids</a>
+            <a href="#">Sale</a>
+            <a href="#">SNKRS</a>
+        </div>
+        <div class="search-bar"><input type="text" placeholder="Search"></div>
+        <div class="icons">
+            <span>❤</span>
+            <span>🛒</span>
+        </div>
+    </div>
+</body>
+</html>

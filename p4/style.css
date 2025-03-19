@@ -1,0 +1,27 @@
+p{
+    color: aqua;
+}
+
+#satu{
+    color: blueaqua;
+}
+
+.tes{
+    color: blueviolet;
+}
+
+ul > li:first-child a {
+    color: red;
+}
+ul > li:nth-child(3n+1) a {
+    color: green;
+}
+ul > li:last-child a{
+    color: brown;
+}
+ul > li:nth-child(even) a:hover {
+    background-color: red;
+    color: black;
+    border-radius: 20%;
+    opacity: 90%;
+}

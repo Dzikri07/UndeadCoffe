@@ -1,0 +1,54 @@
+/* You're blabbing about behind my back */
+.header{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.main p span{
+    font-weight: bold;
+    color: red;
+    background-color: aqua;
+}
+
+.main{
+    background-color: #fff060 ;
+}
+a{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+.kotak{
+    width: 300px;
+    height: 100px;
+    background-color: aqua;
+    overflow: auto;
+}
+
+.satu{
+    background-color: #fff060;
+    width: 100px;
+    height: 100px;
+    display : inline-block;
+}
+
+.dua{
+    background-color: #fff060;
+    width: 100px;
+    height: 100px;
+    display : inline-block;
+    padding: 10px;
+    border: 10px solid #000000;
+    
+}
+
+.tiga{
+    background-color: #fff060;
+    width: 100px;
+    height: 100px;
+    display : inline-block;
+}

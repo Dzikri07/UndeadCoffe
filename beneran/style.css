@@ -1,0 +1,157 @@
+/* Warna latar belakang navbar */
+.bg-custom {
+    background-color: #322C2C;
+}
+
+/* Padding navbar agar lebih besar */
+.navbar {
+    padding: 15px 0;
+}
+
+/* Style default untuk menu navbar */
+.navbar-nav .nav-item {
+    border: 2px solid white; /* Border putih default */
+    border-radius: 5px; /* Biar ada sudut melengkung */
+    margin: 0 7px; /* Jarak antar menu */
+    transition: all 0.3s ease-in-out;
+}
+
+/* Style default untuk link menu */
+.navbar-nav .nav-link {
+    color: #f8f9fa; /* Warna teks lebih terang */
+    padding: 8px 15px;
+    display: block;
+}
+
+/* Efek hover & active */
+.navbar-nav .nav-item:hover,
+.navbar-nav .nav-item.active {
+    border-color: #ffc107; /* Warna border kuning */
+    background-color: rgba(255, 193, 7, 0.2); /* Background sedikit transparan */
+}
+
+/* Warna teks berubah saat hover & active */
+.navbar-nav .nav-item:hover .nav-link,
+.navbar-nav .nav-item.active .nav-link {
+    color: #ffc107 !important; /* Warna teks kuning */
+}
+
+/* Menu yang tidak aktif lebih transparan */
+.navbar-nav .nav-item:not(.active) {
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Background untuk halaman */
+body {
+    background-color: #eacdbd;
+}
+
+.carousel {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+}
+
+.menu-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 2px solid #8B5E3B; /* Warna coklat kopi */
+    border-radius: 15px; /* Biar sudutnya lebih lembut */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+    overflow: visible; /* Pastikan gambar tidak keluar dari border */
+    background-color: #f3e1d0; /* Warna background mirip dengan yang di gambar */
+}
+
+.menu-card img {
+    border-radius: 10px 10px 0 0; /* Biar gambar punya sudut atas membulat */
+    height: 180px; /* Biar ukuran gambar seragam */
+    object-fit: cover; /* Supaya gambar tidak terdistorsi */
+}
+
+.menu-card .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu-card .card-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #5a3e2b; /* Warna teks lebih elegan */
+}
+
+.menu-card .card-text {
+    font-size: 0.9rem;
+    color: #4e3b2b;
+}
+.menu-card {
+    border: 2px solid #8B5E3B;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-color: #f3e1d0;
+    padding: 10px; /* Padding di dalam card */
+    
+    height: auto;
+    min-height: 300px; /* Sesuaikan agar cukup untuk gambar & teks */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-card img {
+    width: 100%;
+    height: 200px; /* Supaya tetap kotak */
+    object-fit: cover; /* Biar gambar tidak terdistorsi */
+    border-radius: 10px; /* Supaya ada efek soft di sudut gambar */
+    background-color: white; /* Biar padding terlihat rapi */
+    padding: 5px; /* Kasih jarak di dalam gambar */
+}
+
+.menu-card .card-img-top {
+    width: 100%; /* Sesuaikan agar tidak kepotong */
+    height: auto;
+    object-fit: cover;
+}
+@media (min-width: 992px) { /* Desktop */
+    .row > .col-lg-3:nth-last-child(1):nth-child(odd) {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.section-menu {
+    max-width: 100%;
+    padding: 0 10px; /* Cegah elemen melebar */
+}
+
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-md-6, .col-lg-3 {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.btn-brown {
+    background-color: #6F4E37; /* Warna coklat */
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-brown:hover {
+    background-color: #5a3e2b; /* Warna lebih gelap saat hover */
+    color: #eacdbd;
+}

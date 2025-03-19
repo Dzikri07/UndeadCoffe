@@ -1,0 +1,63 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #222;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin-left: auto; 
+    padding: 0;
+    padding-top:30px ;
+    padding-bottom: 10px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.menu a:hover {
+    background-color: white;
+    color: #222;
+    transform: scale(1.1);
+}
+
+/* Pastikan carousel menyesuaikan ukuran penuh */
+#default-carousel {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Atur gambar agar tidak ada margin atau padding yang mengganggu */
+#default-carousel img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Hilangkan teks indikator yang muncul */
+#default-carousel .sr-only {
+    display: none;
+}
+
+/* Perbaiki tombol navigasi */
+button[data-carousel-prev], button[data-carousel-next] {
+    background: rgba(0, 0, 0, 0.5); /* Tambahkan background transparan */
+    border-radius: 50%;
+}
